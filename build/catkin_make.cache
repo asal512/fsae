@@ -1,0 +1,2 @@
+aruco_detector:cares_msgs:fsae_control
+-DCATKIN_DEVEL_PREFIX=/home/aakaash/fsae/devel -DCMAKE_INSTALL_PREFIX=/home/aakaash/fsae/install -G Unix Makefiles

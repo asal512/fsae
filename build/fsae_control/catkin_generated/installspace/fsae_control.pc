@@ -1,0 +1,8 @@
+prefix=/home/aakaash/fsae/install
+
+Name: fsae_control
+Description: Description of fsae_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

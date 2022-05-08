@@ -1,0 +1,8 @@
+prefix=/home/aakaash/fsae/devel
+
+Name: cares_msgs
+Description: Description of cares_msgs
+Version: 0.0.0
+Cflags: -I/home/aakaash/fsae/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime sensor_msgs

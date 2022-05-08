@@ -1,0 +1,15 @@
+<launch>
+
+<include file="$(find turtlebot_bringup)/launch/minimal.launch"/>
+
+<include file="$(find realsense2_camera)/launch/rs_camera.launch">
+	<arg name="align_depth" value="true"/>
+</include>
+
+<include file="$(find aruco_detector)/launch/depth_aruco_detector.launch"/>
+
+<!--<node pkg="auto_navigate" type="navigate.py" name="navigate_node" />-->
+
+<!--<node pkg="auto_navigate" type="init_pose.py" name="initpose_node" />-->
+
+</launch>

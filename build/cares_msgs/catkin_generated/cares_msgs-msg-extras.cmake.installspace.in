@@ -1,0 +1,2 @@
+set(cares_msgs_MESSAGE_FILES "msg/ArucoMarkers.msg;msg/InstanceMasks.msg;msg/StereoCameraInfo.msg;msg/PlatformGoalAction.msg;msg/PlatformGoalActionGoal.msg;msg/PlatformGoalActionResult.msg;msg/PlatformGoalActionFeedback.msg;msg/PlatformGoalGoal.msg;msg/PlatformGoalResult.msg;msg/PlatformGoalFeedback.msg")
+set(cares_msgs_SERVICE_FILES "srv/ArucoDetect.srv;srv/CalibrationService.srv;srv/Detection.srv")
