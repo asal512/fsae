@@ -6,7 +6,7 @@ import math
 from geometry_msgs.msg import Point, Twist
 from cares_msgs.msg import ArucoMarkers
 
-
+#test edit
 
 REWARD_SCALAR = 10 #max reward value given when angle = 0 and distance = 0
 ANGLE_REWARD_DROPOFF = 6 #larger value = faster drop off of reward for increasing angle (frequency of cos wave)
